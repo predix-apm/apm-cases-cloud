@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: apm-cases-reviews
+  cloud:
+    config:
+      uri: ${vcap.services.apm-config-service.credentials.uri:http://localhost:8888}
